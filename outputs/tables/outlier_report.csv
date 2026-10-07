@@ -1,0 +1,9 @@
+column,Q1,Q3,IQR,lower_fence,upper_fence,n_beyond_fence,pct_beyond_fence
+total_distance_km,96.57,219.64,123.07,-88.03,404.24,0,0.0
+empty_distance_km,63.87,177.83,113.96,-107.08,348.77,0,0.0
+fuel_litres,23.18,54.83,31.64,-24.28,102.29,2593,1.2
+fuel_cost_inr,2086.54,4934.52,2847.97,-2185.42,9206.48,2593,1.2
+waiting_time_hr,0.0,0.0,0.0,0.0,0.0,22617,10.47
+total_cost_inr,5101.51,8405.63,3304.12,145.33,13361.81,2100,0.97
+utilisation_weight_pct,0.0,8.03,8.03,-12.05,20.08,23621,10.94
+driving_time_hr,2.04,4.13,2.09,-1.09,7.27,511,0.24

@@ -1,0 +1,28 @@
+var_a,var_b,spearman_rho
+Payload t·km,Detour km,0.727
+Weight util %,Detour km,0.678
+Weight util %,Empty km,-0.61
+Loaded km,Empty km,-0.576
+Payload t·km,Empty km,-0.553
+Fuel L,Empty km,0.511
+Total cost ₹,Empty km,0.49
+Weight util %,Waiting h,0.431
+Waiting h,Loaded km,0.406
+Waiting h,Payload t·km,0.4
+Driving h,Detour km,0.379
+Total cost ₹,Detour km,0.358
+Fuel L,Detour km,0.309
+Total cost ₹,Loaded km,0.305
+Total cost ₹,Payload t·km,0.297
+Waiting h,Empty km,-0.286
+Waiting h,Detour km,0.278
+Fuel L,Loaded km,0.25
+Fuel L,Payload t·km,0.245
+Driving h,Payload t·km,0.226
+Detour km,Empty km,-0.189
+Weight util %,Total cost ₹,0.12
+Driving h,Weight util %,0.097
+Weight util %,Fuel L,0.055
+Total cost ₹,Waiting h,0.033
+Waiting h,Fuel L,-0.014
+Driving h,Waiting h,-0.013

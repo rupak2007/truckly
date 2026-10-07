@@ -1,0 +1,6 @@
+driver_rule,value,unit,provenance
+max_driving_hours,10.0,hours,ASM
+max_duty_hours,13.0,hours,ASM
+break_after_hours,5.0,hours,ASM
+break_duration_min,30.0,minutes,ASM
+wage_inr_per_hour,130.0,INR/hour,ASM

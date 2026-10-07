@@ -1,0 +1,20 @@
+KPI,Unit,B0_empty,B1_wait_2h,B1_wait_6h,B1_wait_12h,B2_greedy,TRUCKLY,Truckly vs B0,Truckly vs B2,Better when,Improvement?
+Total km,km,4495.0,4836.0,4839.0,4839.0,4781.0,4801.0,-6.8 %,-0.4 %,lower,NO
+Empty km,km,4495.0,3553.0,3535.0,3535.0,3418.0,3383.0,+24.7 %,+1.0 %,lower,yes
+Empty km share,%,100.0,73.5,73.0,73.0,71.5,70.4,-29.60 pp,-1.10 pp,lower,yes
+Loaded km,km,0.0,1283.0,1303.0,1303.0,1364.0,1418.0,n/a,+4.0 %,higher,--
+Fuel,L,1144.8,1254.4,1255.4,1255.4,1243.4,1249.2,-9.1 %,-0.5 %,lower,NO
+Fuel cost,INR,103034.0,112897.0,112983.0,112983.0,111902.0,112424.0,-9.1 %,-0.5 %,lower,NO
+Waiting time,h,0.0,2.37,3.05,3.05,4.69,4.27,n/a,+9.0 %,lower,--
+Driver duty time,h,88.3,121.2,122.4,122.4,122.6,125.0,-41.6 %,-2.0 %,lower,NO
+Weight utilisation,%,0.0,5.65,5.73,5.73,6.34,6.81,n/a,+0.47 pp,higher,--
+Distance utilisation,%,0.0,26.5,27.0,27.0,28.5,29.6,n/a,+1.10 pp,higher,--
+Backhaul fill rate,%,0.0,46.8,47.6,47.6,47.4,47.3,n/a,-0.10 pp,higher,--
+Total cost,INR,196706.0,211395.0,211635.0,211635.0,210487.0,211352.0,-7.4 %,-0.4 %,lower,NO
+Freight revenue,INR,0.0,44039.0,44756.0,44756.0,46867.0,51179.0,n/a,+9.2 %,higher,--
+Net cost (cost - revenue),INR,196706.0,167356.0,166879.0,166879.0,163620.0,160173.0,+18.6 %,+2.1 %,lower,yes
+Shipments served,count,0.0,14.03,14.29,14.29,14.23,15.89,n/a,+11.7 %,higher,--
+On-time rate,%,100.0,100.0,100.0,100.0,100.0,100.0,+0.00 pp,+0.00 pp,higher,NO
+Tonne-km per litre,t.km/L,0.0,2.643,2.682,2.682,2.959,3.175,n/a,+7.3 %,higher,--
+CO2 estimate,kg,3068.0,3362.0,3364.0,3364.0,3332.0,3348.0,-9.1 %,-0.5 %,lower,NO
+Solve time per decision,ms,0.01,0.15,0.14,0.14,0.2,0.58,n/a,n/a,lower,--

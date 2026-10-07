@@ -1,0 +1,14 @@
+check,violations,rule,action_if_violated,fires_on_corrupted_copy
+C01_missing_values,0,"no NaN in any journey or shipment column outside the declared nullable set ['match_score', 'matched_shipment_ids']","flag row, do not drop; investigate generator branch",True
+C01b_declared_nullable_only_where_unmatched,0,match_score is populated if and only if the truck was matched,score written for an unmatched truck -> bookkeeping fault,True
+C02_duplicate_keys,0,"(scenario, instance, policy, truck) is unique in journeys","keep first, log the duplicate key",True
+C03_negative_quantities,0,"distances, fuel, cost and times are non-negative","quarantine row; a negative here is a code fault, not data noise",True
+C04_distance_identity,0,total_distance_km == loaded_distance_km + empty_distance_km,recompute from legs; never patch the aggregate,True
+C05_cost_identity,0,total = variable + fixed; variable = fuel + driver + toll,recompute in CostModel; single source of truth,True
+C06_utilisation_bounds,0,0 <= utilisation <= 100 for both definitions,>100% means payload exceeded capacity -> capacity constraint broken,True
+C07_capacity_respected,0,payload tonne-km never exceeds capacity tonne-km,hard constraint violation; reject the route,True
+C08_time_windows,0,delivery deadline is strictly after pickup ready time,regenerate the shipment; an inverted window is unservable,True
+C09_geographic_bounds,0,"all coordinates inside the Indian bounding box (6-38N, 68-98E)",drop node from the network; a stray coordinate corrupts every matrix,True
+C10_od_distinct,0,shipment origin != destination,regenerate; a zero-length shipment is meaningless,True
+C11_service_level_bounded,0,shipments served never exceeds shipments offered,double-assignment bug in the optimiser,True
+C12_pairing_intact,0,every policy in an instance saw the same shipment pool (the paired-design precondition),"instance regenerated between policies -> pairing broken, analysis void",True

@@ -1,0 +1,16 @@
+{
+  "graph1": {
+    "n": 3000,
+    "mean_km": 149.8,
+    "median_km": 134.6,
+    "sd_km": 71.5,
+    "q1": 84.2,
+    "q3": 208.1,
+    "iqr": 123.9,
+    "p90": 255.2,
+    "max_km": 302.0,
+    "skew": 0.499,
+    "pct_of_empty_km_in_top_decile": 18.8,
+    "total_empty_km_per_day": 4495.0
+  }
+}

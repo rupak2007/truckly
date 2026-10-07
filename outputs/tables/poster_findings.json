@@ -1,0 +1,136 @@
+{
+  "graph1": {
+    "n": 3000,
+    "mean_km": 149.8,
+    "median_km": 134.6,
+    "sd_km": 71.5,
+    "q1": 84.2,
+    "q3": 208.1,
+    "iqr": 123.9,
+    "p90": 255.2,
+    "max_km": 302.0,
+    "skew": 0.499,
+    "pct_of_empty_km_in_top_decile": 18.8,
+    "total_empty_km_per_day": 4495.0
+  },
+  "graph2": {
+    "by_type": [
+      {
+        "truck_type": "LCV_3T",
+        "n": 653,
+        "median": 2087,
+        "Q1": 1269,
+        "Q3": 3203,
+        "IQR": 1934,
+        "n_outliers": 0,
+        "pct_outliers": 0.0
+      },
+      {
+        "truck_type": "RIGID_9T",
+        "n": 1018,
+        "median": 2807,
+        "Q1": 1828,
+        "Q3": 4566,
+        "IQR": 2738,
+        "n_outliers": 0,
+        "pct_outliers": 0.0
+      },
+      {
+        "truck_type": "RIGID_16T",
+        "n": 843,
+        "median": 3451,
+        "Q1": 2198,
+        "Q3": 5470,
+        "IQR": 3271,
+        "n_outliers": 0,
+        "pct_outliers": 0.0
+      },
+      {
+        "truck_type": "ARTIC_25T",
+        "n": 486,
+        "median": 4084,
+        "Q1": 2660,
+        "Q3": 6279,
+        "IQR": 3619,
+        "n_outliers": 0,
+        "pct_outliers": 0.0
+      }
+    ],
+    "within_class_iqr_mean": 2890,
+    "between_class_median_range": 1997
+  },
+  "graph3": {
+    "pearson_r": 0.882,
+    "r2": 0.778,
+    "spearman": 0.903,
+    "n": 3000,
+    "slope_l_per_km": 0.2576,
+    "g3b_pearson_r": 0.372,
+    "g3b_r2": 0.138,
+    "g3b_slope": 0.0123,
+    "g3b_n": 1420
+  },
+  "graph4": {
+    "n": 3000,
+    "strongest_non_definitional": [
+      [
+        "Payload t\u00b7km",
+        "Detour km",
+        0.727
+      ],
+      [
+        "Weight util %",
+        "Detour km",
+        0.678
+      ],
+      [
+        "Weight util %",
+        "Empty km",
+        -0.61
+      ],
+      [
+        "Loaded km",
+        "Empty km",
+        -0.576
+      ],
+      [
+        "Payload t\u00b7km",
+        "Empty km",
+        -0.553
+      ],
+      [
+        "Fuel L",
+        "Empty km",
+        0.511
+      ]
+    ],
+    "weakest": [
+      [
+        "Total cost \u20b9",
+        "Waiting h",
+        0.033
+      ],
+      [
+        "Waiting h",
+        "Fuel L",
+        -0.014
+      ],
+      [
+        "Driving h",
+        "Waiting h",
+        -0.013
+      ]
+    ]
+  },
+  "graph5": {
+    "n": 3000,
+    "median_pct": 0.0,
+    "mean_pct": 9.1,
+    "pct_below_threshold": 87.5,
+    "pct_exactly_zero": 52.7,
+    "median_matched_pct": 14.18,
+    "p90": 29.82,
+    "max_pct": 97.75,
+    "threshold": 25.0
+  }
+}

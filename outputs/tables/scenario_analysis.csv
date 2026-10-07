@@ -1,0 +1,13 @@
+scenario,label,density,B0_empty_km,B2_empty_km,TR_empty_km,empty_red_vs_B0_pct,empty_red_vs_B2_pct,net_cost_red_vs_B0_pct,net_cost_red_vs_B2_pct,fill_rate_TR_pct,fill_rate_B2_pct,util_gain_vs_B0_pp,served_TR,served_B2,solve_ms
+S0_base,S0  Base case,6.0,4495,3418,3383,24.74,1.01,18.57,2.11,47.3,47.4,6.81,15.89,14.23,0.576
+S1_low_avail,S1  Low availability (2/truck),2.0,4454,4023,4008,10.01,0.37,7.17,0.46,22.5,22.3,2.7,7.0,6.69,0.246
+S2_mod_avail,S2  Moderate availability (6/truck),6.0,4520,3444,3405,24.68,1.14,18.31,2.1,47.5,47.4,6.57,16.04,14.22,0.493
+S3_high_avail,S3  High availability (15/truck),15.0,4501,2583,2507,44.3,2.94,34.47,7.57,68.9,68.6,12.0,25.58,20.59,1.524
+S4_strict_dl,S4  Strict deadlines,6.0,4492,3684,3654,18.64,0.81,14.03,1.51,43.0,42.7,5.19,14.24,12.81,0.465
+S5_relaxed_dl,S5  Relaxed deadlines,6.0,4426,2892,2837,35.92,1.92,28.06,5.68,59.2,59.1,10.32,21.58,17.72,0.801
+S6_low_util,S6  Light shipments (low util),6.0,4452,3322,3274,26.46,1.44,17.59,2.66,48.5,48.2,3.72,16.71,14.46,0.566
+S7_high_util,S7  Heavy shipments (high util),6.0,4425,3512,3478,21.4,0.96,18.25,1.84,42.8,42.6,9.69,14.02,12.77,0.451
+S8_small_trucks,S8  Small-truck fleet,6.0,4427,3395,3358,24.16,1.11,19.51,2.36,46.9,46.5,10.26,15.57,13.95,0.511
+S9_large_trucks,S9  Large-truck fleet,6.0,4493,3320,3284,26.89,1.06,18.59,2.45,49.4,49.1,5.36,16.84,14.74,0.624
+S10a_detour_15,S10a Detour tolerance 15%,6.0,4460,3433,3387,24.06,1.35,17.66,2.23,46.3,45.8,6.15,15.67,13.75,0.544
+S10b_detour_50,S10b Detour tolerance 50%,6.0,4463,3377,3339,25.19,1.11,18.76,2.16,49.1,49.0,7.06,16.37,14.69,0.584

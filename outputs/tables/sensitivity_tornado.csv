@@ -1,0 +1,10 @@
+parameter,min_empty_red,max_empty_red,min_netcost_red,max_netcost_red,empty_swing_pp,netcost_swing_pp
+shipment_density,10.44,43.55,7.48,34.47,33.11,26.99
+deadline_slack_factor,16.63,35.5,13.02,27.83,18.87,14.81
+detour_tolerance,23.09,26.49,17.31,19.86,3.4,2.55
+min_detour_allowance_km,23.93,26.73,17.49,20.09,2.8,2.6
+empty_km_penalty_inr_per_km,24.67,24.97,18.55,18.59,0.3,0.04
+diesel_price_inr_per_litre,24.72,24.87,14.41,22.38,0.15,7.97
+tariff_inr_per_km,24.69,24.84,10.92,31.17,0.15,20.25
+waiting_cost_multiplier,24.74,24.84,18.06,18.88,0.1,0.82
+driver_wage_inr_per_hour,24.82,24.87,16.73,19.71,0.05,2.98
